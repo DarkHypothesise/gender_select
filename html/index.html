@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Selection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gender-ui" class="container">
+        <div class="glass-panel">
+            <div class="panel-content">
+                <div class="header">
+                    <div class="logo">
+                        <i class="fas fa-venus-mars"></i>
+                    </div>
+                    <h2 id="ui-title">Character Gender</h2>
+                    <p id="ui-subtitle">Select your character's gender to continue</p>
+                </div>
+                
+                <div class="gender-options">
+                    <div id="male-btn" class="gender-card">
+                        <div class="gender-icon male">
+                            <i class="fas fa-male"></i>
+                        </div>
+                        <div class="gender-info">
+                            <h3 id="male-label">Male</h3>
+                            <p class="gender-description">Select male character model</p>
+                        </div>
+                        <div class="selection-indicator"></div>
+                    </div>
+                    
+                    <div id="female-btn" class="gender-card">
+                        <div class="gender-icon female">
+                            <i class="fas fa-female"></i>
+                        </div>
+                        <div class="gender-info">
+                            <h3 id="female-label">Female</h3>
+                            <p class="gender-description">Select female character model</p>
+                        </div>
+                        <div class="selection-indicator"></div>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <button id="close-btn" class="close-button">
+                        <i class="fas fa-times"></i>
+                        <span id="close-label">Close</span>
+                    </button>
+                    <div class="footer-note">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Your selection will be saved automatically</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
